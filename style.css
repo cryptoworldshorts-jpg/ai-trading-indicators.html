@@ -27,11 +27,12 @@ body {
 
 .hero {
   display: flex;
-  align-items: center;          /* centriraj vertikalno */
+  align-items: center;
   justify-content: space-between;
   gap: 32px;
-  padding: 40px 8% 60px;
+  padding: 80px 8% 40px; /* više prostora gore, manje dole */
 }
+
 
 /* TEKST BLOK */
 
