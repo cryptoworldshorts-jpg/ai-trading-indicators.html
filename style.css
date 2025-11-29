@@ -30,24 +30,24 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 28px;
-  padding: 40px 8% 70px;
+  padding: 30px 8% 50px;
 }
 
 .hero-text {
-  max-width: 480px;
+  max-width: 460px;
   text-align: center;
 }
 
 .hero-text h1 {
   font-size: 2.4rem;
-  line-height: 1.15;
-  margin-bottom: 16px;
+  line-height: 1.1;
+  margin-bottom: 10px;
 }
 
 .hero-text p {
-  font-size: 0.98rem;
+  font-size: 0.95rem;
   color: #cfd4ff;
-  margin-bottom: 22px;
+  margin-bottom: 16px;
 }
 
 .hero-subnote {
@@ -66,6 +66,8 @@ body {
   text-decoration: none;
   box-shadow: 0 8px 25px rgba(0, 246, 163, 0.45);
   transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+  margin-top: 4px;
+  margin-bottom: 10px;
 }
 
 .btn-primary:hover {
@@ -74,11 +76,11 @@ body {
   box-shadow: 0 12px 35px rgba(0, 246, 163, 0.6);
 }
 
-/* Images */
+/* Images lijevo/desno */
 
 .hero-image img {
   display: block;
-  max-width: 340px;
+  max-width: 420px;
   width: 100%;
   height: auto;
   border-radius: 16px;
@@ -109,11 +111,10 @@ body {
 
 @media (max-width: 600px) {
   .hero {
-    padding: 30px 5% 50px;
+    padding: 24px 5% 40px;
   }
 
   .hero-text h1 {
     font-size: 2rem;
   }
 }
-
