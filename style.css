@@ -33,6 +33,10 @@ body {
   padding: 80px 8% 40px; /* više prostora gore, manje dole */
 }
 
+.hero {
+  min-height: 80vh;
+}
+
 
 /* TEKST BLOK */
 
