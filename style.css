@@ -131,3 +131,23 @@ body {
 
   .hero-text p {
     font
+
+    .site-footer {
+  margin-top: 40px;
+  padding: 16px;
+  background: #050816;
+  color: #ccc;
+  font-size: 13px;
+  text-align: center;
+}
+
+.site-footer .footer-link {
+  color: #00b8d4;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.site-footer .footer-link:hover {
+  text-decoration: underline;
+}
+
