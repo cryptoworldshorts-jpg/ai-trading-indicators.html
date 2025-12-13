@@ -259,7 +259,7 @@
 </footer>
 
   <!-- Simple styling for the SEO content block (can move to style.css) -->
-  <style>
+    <style>
     .seo-content {
       max-width: 900px;
       margin: 40px auto 60px auto;
@@ -293,7 +293,56 @@
       margin-bottom: 12px;
       text-align: left;
     }
+    
+    .seo-cta {
+      margin: 40px 0;
+      text-align: center;
+    }
 
+    .site-footer {
+      margin-top: 40px;
+      padding: 16px;
+      background: #050816;
+      color: #ccc;
+      font-size: 13px;
+      text-align: center;
+    }
+
+    .site-footer .footer-link {
+      color: #00b8d4;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .site-footer .footer-link:hover {
+      text-decoration: underline;
+    }
+
+    /* --- OVDJE JE ISPRAVLJEN KOD ZA SLIKU (SADA VRIJEDI SVUDA) --- */
+    .feature-image-box {
+      margin: 40px auto;
+      text-align: center;
+      max-width: 800px;
+      width: 100%;
+    }
+
+    .feature-image-box img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 234, 255, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      display: block; /* Pomaže da se ne pojavljuje razmak ispod slike */
+    }
+
+    .image-caption {
+      font-size: 0.9rem;
+      color: #aaa;
+      margin-top: 10px;
+      font-style: italic;
+    }
+
+    /* --- MOBILNA PRAVILA --- */
     @media (max-width: 768px) {
       .seo-content {
         margin-top: 32px;
@@ -312,51 +361,9 @@
       .seo-content p {
         font-size: 0.95rem;
       }
-
-      .site-footer {
-  margin-top: 40px;
-  padding: 16px;
-  background: #050816;
-  color: #ccc;
-  font-size: 13px;
-  text-align: center; /* centrira sav tekst u footeru */
-}
-
-.site-footer .footer-link {
-  color: #00b8d4;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.site-footer .footer-link:hover {
-  text-decoration: underline;
-}
-
-      .feature-image-box {
-  margin: 40px auto;       /* Razmak gore/dolje 40px, auto centrira box lijevo/desno */
-  text-align: center;      /* Centrira sadržaj unutar boxa */
-  max-width: 800px;        /* Ograničava maksimalnu širinu da slika ne bude preogromna na velikim ekranima */
-  width: 100%;             /* Zauzima punu širinu do max-width limita */
-}
-
-.feature-image-box img {
-  width: 100%;             /* Slika se rasteže da popuni box */
-  height: auto;            /* Zadržava originalni omjer slike (ne deformira se) */
-  border-radius: 12px;     /* Zaobljeni rubovi */
-  box-shadow: 0 10px 30px rgba(0, 234, 255, 0.15); /* Plavi sjaj */
-  border: 1px solid rgba(255, 255, 255, 0.1);      /* Tanak okvir */
-  display: block;          /* Pomaže kod centriranja i uklanja prazan prostor ispod slike */
-}
-
-.image-caption {
-  font-size: 0.9rem;
-  color: #aaa;
-  margin-top: 10px;
-  font-style: italic;
-}
-
-
     }
+  </style>
+
   </style>
 </body>
 </html>
