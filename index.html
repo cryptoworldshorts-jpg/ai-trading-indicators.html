@@ -332,6 +332,30 @@
   text-decoration: underline;
 }
 
+      .feature-image-box {
+  margin: 40px auto;       /* Razmak gore/dolje 40px, auto centrira box lijevo/desno */
+  text-align: center;      /* Centrira sadržaj unutar boxa */
+  max-width: 800px;        /* Ograničava maksimalnu širinu da slika ne bude preogromna na velikim ekranima */
+  width: 100%;             /* Zauzima punu širinu do max-width limita */
+}
+
+.feature-image-box img {
+  width: 100%;             /* Slika se rasteže da popuni box */
+  height: auto;            /* Zadržava originalni omjer slike (ne deformira se) */
+  border-radius: 12px;     /* Zaobljeni rubovi */
+  box-shadow: 0 10px 30px rgba(0, 234, 255, 0.15); /* Plavi sjaj */
+  border: 1px solid rgba(255, 255, 255, 0.1);      /* Tanak okvir */
+  display: block;          /* Pomaže kod centriranja i uklanja prazan prostor ispod slike */
+}
+
+.image-caption {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+
     }
   </style>
 </body>
