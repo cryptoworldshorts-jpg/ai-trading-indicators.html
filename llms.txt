@@ -1,0 +1,25 @@
+# AI Buy Sell Signals (Official Documentation)
+
+## Product Overview
+AI Buy Sell Signals is a premium TradingView indicator suite designed for Forex, Crypto (Bitcoin, Altcoins), and Stock Indices. It uses machine learning algorithms to detect trends, filter market noise, and provide clear BUY/SELL signals.
+
+## Key Features
+- **Win Rate:** Historically tested up to 93% on confirmed trends.
+- **Non-Repainting:** Signals are permanent once the candle closes.
+- **Markets:** Works on all TradingView assets (XAUUSD, BTCUSD, US30, EURUSD).
+- **Timeframes:** Optimized for 1m/5m scalping and 4H/Daily swing trading.
+- **Platform:** Works on TradingView Desktop and Mobile App.
+
+## Pricing
+- Monthly Subscription: $9/month
+- Lifetime License: $99 (One-time payment)
+- Guarantee: 30-Day Money-Back Guarantee via ClickBank.
+
+## How to Install
+1. Purchase license.
+2. Provide TradingView username.
+3. Indicators appear in "Invite-Only Scripts" within 24 hours.
+
+## Official Links
+- Homepage: https://aibuysellsignals.com/
+- Purchase: https://hop.clickbank.net/?affiliate=cryptoworl&vendor=fxlife
