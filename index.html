@@ -420,6 +420,38 @@
         font-size: 0.95rem;
       }
     }
+
+      /* Fix za centriranje Pricing Box-a */
+.pricing-box {
+    text-align: center !important; /* Prisiljava centriranje teksta */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrira elemente unutar flexboxa */
+}
+
+/* Fix za naslove unutar boxa */
+.pricing-box h2 {
+    text-align: center;
+    width: 100%;
+}
+
+/* Fix za tekst garancije */
+.pricing-box p {
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+/* Dodatno osiguranje za mobilne uređaje */
+@media (max-width: 768px) {
+    .pricing-box {
+        padding: 20px;
+        width: 90%; /* Da ne udara u rubove na mobitelu */
+    }
+}
+
   </style>
 
   </style>
